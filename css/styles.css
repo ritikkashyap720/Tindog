@@ -1,0 +1,148 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+
+}
+h1{
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 1.5;
+    
+}
+h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+h3{
+     font-family: 'Ubuntu-bold', sans-serif ;
+}
+p{
+    color: grey;
+}
+ /* navigation bar   */
+.navbar-brand{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar{
+    padding:0 0 4.5rem;
+}
+.nav-item{
+    font-size: 20px;
+    padding: 0 14px;
+    font-weight: bold;
+}
+
+/* Buttons */
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+/*Title-Images */
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
+}
+/* features */
+#features{
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.icon:hover{
+    color: #ff4c68;
+   
+}
+/* Testimonial */
+#testimonials{
+    
+    background-color: #ef8172;
+    color: white;
+    text-align: center;
+}
+.testimonial-image{
+    margin: 20px;
+    width: 15%;
+    border-radius: 100%;
+}
+.carousel-item{
+    
+    padding: 7% 15%;
+}
+/* Press */
+#press{
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    padding: 20px 20px 50px;
+}
+/* Pricing */
+#pricing{
+    padding: 100px;
+}
+.pricing-column{
+    padding: 3% 2%;
+}
+.pricing-h2{
+    text-align: center;
+}
+
+/* Small screen */
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+}
+/* call to action */
+#cta{
+    text-align: center;
+    background-color: #ff4c68;
+}
+.cta-h3{
+    color: white;
+    font-size: 3.25rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5% 25% 1%;
+    font-weight: bolder;
+}
+.cta-btn{
+    margin: 5% 1% 4% 0;
+}
+/* Footer */
+#footer{
+    text-align: center;
+    /* margin:  5% 25% 1%;; */
+    margin: 6% 25%;
+
+}
+.fotter-p{
+    font-size: 1rem;
+}
+.footer-icon{
+    padding: 3px 11px 3px 9px;
+    text-decoration: none;
+    color: grey;
+}
